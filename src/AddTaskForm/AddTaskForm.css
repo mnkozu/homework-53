@@ -1,0 +1,36 @@
+.form {
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input {
+    padding: 5px 15px;
+    border: 2px solid darkblue;
+    width: 70%;
+}
+input:focus:hover{
+    outline: none;
+    box-shadow: 0 0 5px cornflowerblue;
+    border: 2px solid darkblue;
+}
+
+.button {
+    text-transform: uppercase;
+    width: 20%;
+    padding: 8px 30px;
+    border: none;
+    background-color: #5786de;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.button:focus {
+    box-shadow:
+            rgba(50, 50, 93, .1) 0 0 0 1px inset,
+            rgba(50, 50, 93, .2) 0 6px 15px 0,
+            rgba(0, 0, 0, .1) 0 2px 2px 0,
+            rgba(50, 151, 211, .3) 0 0 0 4px;
+}
